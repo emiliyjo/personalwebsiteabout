@@ -23,3 +23,36 @@ video {
   height: auto;
   max-width: 100%;
 }
+
+@font-face{
+  font-family:"futura";
+  font-style:normal;
+  font-weight:400;
+  src:url("https://cdn.glitch.global/06373d34-df45-4367-9db1-37243713d650/futur.ttf?v=1682971955425");
+}
+
+.left{
+  width:20%;
+  height:100%;
+  
+}
+
+.menu{
+  font-size:8px;
+  padding:160px 30px;
+  font-family:"futura";
+}
+
+.about{
+  font-size:60px;
+  padding:90px 20px;
+  font-family:futura;
+}
+
+.right{
+  width:80%;
+  height:100%;
+  background-color:black;
+ position:absolute;
+  right:0;
+}
